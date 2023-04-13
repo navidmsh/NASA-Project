@@ -1,0 +1,149 @@
+body{
+    background-color: black;
+}
+
+*{
+    text-decoration: none;
+}
+
+.Fixed-Header {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: right;
+    background-image: url("starfield-banner.jpg");
+    width: 1348px;
+    height: 195px;
+}
+
+.background-image, .Header-logo, .Header-menu-top, .searchbox, .share-icon, .Header-menu-bottom{
+    display: inline-block;
+}
+
+.Fixed-Header div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Header-logo {
+    float: left;
+    margin-top: 20px;
+}
+
+.Header-menu-top {
+    margin-top: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.Header-menu-top a{
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    font-size: 1.47em;
+    color: #fff;
+    margin: 0 10px;
+}
+
+.searchbox {
+    background-color: #333333;
+    padding: 1px;
+    vertical-align: top;
+    margin: 0 10px;
+}
+
+.searchbox input{
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    outline: none;
+    text-align: left;
+    vertical-align: top;
+    padding: 10px 36px 10px 10px;
+    width: 80px;
+}
+
+.Header-menu-bottom {
+    background-color: #555555;
+    background: #555;
+    padding: 10px 15px;
+    text-align: center;
+    vertical-align: top;
+    margin-right: 180px;;
+}
+
+.Header-menu-bottom a{
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    margin-right: 20px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 280px;
+}
+
+.section1 , .section2 {
+    display: inline-block;
+    margin: auto;
+}
+
+.section3 *{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.section4 *{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+.main form input{
+    background-color: #15418c;
+    font-family: "Titillium Web", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    border: none;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 8px 598px 5px 598px;
+    height: 40px;
+    display: block;
+    color: #fff;
+    margin: 20px auto;
+}
+
+.Footer {
+    width: 1350px;
+    margin: auto;
+}
+
+.Footer-logo, .Footer-status {
+    float: left;
+    margin-top: 30px;
+}
+
+.Footer-status p{
+    display: inline-block;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.95em;
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    margin: 0;
+}
+
+.Footer-menu {
+    float: right;
+    margin: 85px 0 80px 0;
+}
+
+.Footer-menu a{
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    color: #5d7fb9;
+    font-size: 0.85em;
+    font-weight: bold;
+    margin-left: 20px;
+}
